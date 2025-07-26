@@ -14,13 +14,13 @@
 <body class="font-[Inter]">
     <header class="w-4/5 mx-auto my-7">
         <!-- Navbar Section -->
-        <nav class="flex flex-col md:flex-row justify-between items-center">
+        <nav class="flex flex-row justify-between items-center">
             <div class="flex items-center mb-4 md:mb-0">
                <img src="assets/logo.png" alt="Site-Logo">
             </div>
     
             <div class="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-8">
-                <ul class="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-8">
+                <ul class="flex max-sm:hidden justify-between gap-7 items-center">
                     <li><a href="#" class="text-black">Home</a></li>
                     <li><a href="#" class="text-gray-400">Shop</a></li>
                     <li><a href="#" class="text-gray-400">About us</a></li>
@@ -38,9 +38,9 @@
         </nav>
 
         <!-- Hero Section -->
-        <section class="mt-40 flex justify-between h-3/5">
-            <div class="w-2/5 flex flex-col justify-end">
-                <h1 class="font-noto text-6xl font-bold leading-tight">ALWAYS <span class="text-[#E95A08]">FRESH <br> FLOWERS</span></h1>
+        <section class="mt-40 max-sm:mt-2 flex max-sm:flex-col-reverse justify-between h-3/5">
+            <div class="w-2/5 max-sm:w-full max-sm:mt-5 flex flex-col justify-end">
+                <h1 class="font-noto max-sm:text-2xl text-6xl font-bold leading-tight">ALWAYS <span class="text-[#E95A08]">FRESH <br> FLOWERS</span></h1>
                 <p class="mt-4 text-[#00000080]">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
             </div>
             <div>
@@ -169,7 +169,7 @@
          </section>
     </main>
     <footer class="my-15">
-        <section class="w-4/5 flex justify-between mx-auto">
+        <section class="w-4/5 flex sm:flex flex-col justify-between mx-auto">
             <div class="w-1/4">
                 <img src="assets/logo.png" alt="Footer Logo">
                 <p class="text-[#00000080] mt-4">Indulge your senses with the beauty and fragrance of our fresh flower shop. </p>
